@@ -47,7 +47,6 @@
         </developer>
     </developers>
 
-
     <!-- Versiyon Kontrol Sistemi Bilgisi (SCM) -->
     <scm>
         <connection>scm:git:https://github.com/</connection>
@@ -56,7 +55,6 @@
         <tag>master</tag>
     </scm>
 
-
     <!--
       war: java EE için kullanalım. JSP,servlet,html,css3
       jar: Spring Boot için kullanalım
@@ -64,7 +62,6 @@
     <!--apache tomcat manuel için war ekliyorum-->
     <!--<packaging>war</packaging>-->
     <packaging>jar</packaging>
-
 
     <!--properties-->
     <properties>
@@ -93,7 +90,6 @@
     </properties>
 
 
-
     <!-- start dependencies-->
     <dependencies>
 
@@ -105,11 +101,10 @@
 
         <!--SQLite-->
         <dependency>
-        <groupId>org.xerial</groupId>
-        <artifactId>sqlite-jdbc</artifactId>
-        <scope>runtime</scope>
-    </dependency>
-
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <scope>runtime</scope>
+        </dependency>
 
         <!-- #### AOP #################################################  -->
         <!--<dependency>
@@ -414,6 +409,7 @@
     </dependencies>
 
 
+    <!--dependencyManagement-->
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -432,7 +428,6 @@
         <!--apache tomcat manuel deployment için-->
         <defaultGoal>spring-boot:run</defaultGoal>
         <finalName>${project.artifactId}</finalName>
-
 
         <plugins>
             <!-- for maven target 17: SonarQube 11 veya Jenkins yapmalısınız -->
