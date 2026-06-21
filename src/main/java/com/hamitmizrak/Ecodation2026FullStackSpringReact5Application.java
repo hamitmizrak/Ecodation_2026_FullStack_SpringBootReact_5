@@ -1,4 +1,4 @@
-package com.hamitmizrak.ecodation_2026_fullstack_springreact_5;
+package com.hamitmizrak;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

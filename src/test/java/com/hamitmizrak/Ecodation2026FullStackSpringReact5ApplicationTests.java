@@ -1,4 +1,4 @@
-package com.hamitmizrak.ecodation_2026_fullstack_springreact_5;
+package com.hamitmizrak;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
